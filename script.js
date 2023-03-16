@@ -31,25 +31,25 @@ window.onclick = function(event) {
 ექნება შეიტანოს ":"-ით ერთმანეთისგან გამოყოფილი რიცხვები, 
 average ღილაკზე დაწკაპების შემდეგ დაითვალე ამ რიცხვების საშუალო და გამოუტანე ეკრანზე.*/
 
-// let btn2 = document.querySelector(".btn2")
-// let inp2 = document.querySelector(".inp2")
-// let average = 0;
-// let sum = 0
-// let arr2 = []
+let btn2 = document.querySelector(".btn2")
+let inp2 = document.querySelector(".inp2")
+let average = 0;
+let sum = 0
+let arr2 = []
 
 
-// btn2.addEventListener("click", function(y){
+btn2.addEventListener("click", function(y){
 
-//     arr2.push(inp2.value)
+    arr2.push(inp2.value)
 
-//     let sum = arr2.filter(y => y % 2==0){
-//     return sum;
+    let sum = arr2.filter(y => y % 2==0){
+    return sum;
 
-//     })
-//     console.log(sum)
+    })
+    console.log(sum)
 
 
-// })
+})
 
 
 
